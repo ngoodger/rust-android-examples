@@ -17,11 +17,11 @@ android {
         testInstrumentationRunner= "androidx.test.runner.AndroidJUnitRunner"
     }
 cargo {
-  val ndkDir ="/data/data/com.termux/files/home/android-ndk-r26b"
+  //val ndkDir ="/data/data/com.termux/files/home/android-ndk-r26b"
         prebuiltToolchains = true
         module  = "../rust"       // Or whatever directory contains your Cargo.toml
         libname = "main"          // Or whatever matches Cargo.toml's [package] name.
-        targets = listOf("arm", "arm64" )  // See bellow for a longer list of options
+        targets = listOf("arm64" )  // See bellow for a longer list of options
         //environment.set("AR", "llvm-ar")
           }
 

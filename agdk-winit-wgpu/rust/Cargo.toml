@@ -51,3 +51,4 @@ required-features = [ "desktop" ]
 
 [target.aarch64-linux-android]
 linker = "aarch64-linux-android29-clang"
+ar = "llvm-ar"
